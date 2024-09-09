@@ -1,6 +1,8 @@
 * {
     font-family: Helvetica Neue,Helvetica,Arial,sans-serif; 
-}
+    align-items: center;
+
+  }
 
 body {
     background-image: url(bg.png);
@@ -20,8 +22,9 @@ header {
 .logo {
     width: auto;
     height: auto;
-    padding-bottom: 55vh;
+    padding-bottom: 50vh;
     padding-top: 5vh;
+    max-width:90%  
 }
 
 button {
@@ -36,6 +39,7 @@ button {
   transition-duration: 0.4s;
   cursor: pointer;
   margin-bottom: 10vh;
+  max-width:80%  
 }
 
 .button1 {
@@ -57,7 +61,6 @@ ul.box-redes-sociais {
   float: none;
   margin: auto;
   align-items: center;
-  
 }
 ul.box-redes-sociais li {
   list-style: none;
@@ -86,7 +89,7 @@ ul.box-redes-sociais li a .icon {
   z-index: 3;
 }
 ul.box-redes-sociais li a:hover .icon {
-  color: #fff;
+  color: #FFFF;
   scale: 1.2;
 }
 ul.box-redes-sociais li a:before {
@@ -118,5 +121,10 @@ ul.box-redes-sociais li.discord a:before {
 }
 
 ul.box-redes-sociais li.tiktok a:before {
-    background: linear-gradient(90deg, rgba(37,244,238,1) 0%, rgba(5,1,2,1) 50%, rgba(254,44,85,1) 100%);
+    background: linear-gradient(90deg, rgba(37,244,238,1) 46%, rgba(50,50,50,1) 49%, rgba(254,44,85,1) 56%);
+}
+
+embed {
+  vertical-align: middle;
+  horizontal-
 }
