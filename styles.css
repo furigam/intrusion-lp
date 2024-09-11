@@ -54,7 +54,7 @@ button {
 }
 
 ul.box-redes-sociais {
-  
+  padding-bottom: 5vh;
   display: flex;
   background: transparent;
   width: 305px;
@@ -126,5 +126,9 @@ ul.box-redes-sociais li.tiktok a:before {
 
 embed {
   vertical-align: middle;
-  horizontal-
 }
+
+a {
+  color: inherit;
+  text-decoration: none;
+} 
