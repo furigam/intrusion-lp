@@ -1,23 +1,27 @@
   * {
-    padding: 0px;
-    margin: 0px;
     text-decoration: none;
     font-family: "Urbanist", serif;
     font-optical-sizing: auto;
     font-weight: 500;
     font-style: normal;
+
+    padding: 0px;
+    margin: 0px;
+
+    color: black;
   }
 
   header {
     display: flex;
     position: absolute;
     opacity: 1;
-    height: 100px;
     width: 100%;
     z-index: 10;
     font-size: 25px;
     align-items: center;
     justify-content: right;
+
+    margin-top: 25px;
 
     opacity: 0;
     animation: fadeIn 2s;
@@ -43,17 +47,23 @@
 
   }
 
-  .hero  and .hero-container{
-    position: relative;
-    height: 1000px;
-
+  .hero {
     width: 100%;
   }
 
-  .hero-container img {
+  .hero div {
+
+
+    height: 100vh;
+    width: 100%;
+  }
+
+  .hero img {
     position: absolute;
     animation: slideLeft 0.7s ease-in;
     animation-fill-mode: both;
+
+    width: 100%;
   }
 
   #slider1 {
@@ -69,19 +79,19 @@
   }
 
   #logo {
-    position: absolute;
-
     opacity: 0;
     animation: fadeIn 2s;
     animation-fill-mode: both;
     animation-delay: 2s;
 
-    margin-left: 35%;
-    margin-right: auto;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+  }
 
+  #logo img {
     width: auto;
-
-    margin-top: 700px;
+    padding-bottom: 50px;
   }
 
   @keyframes slideLeft {
@@ -90,7 +100,7 @@
     }
 
     to {
-      transform: translate3d(-100p, 0px, 0px);
+      transform: translate3d(0px, 0px, 0px);
     }
   }
 
@@ -102,4 +112,66 @@
     to  {
       opacity: 1;
     }
+  }
+
+  .playnow {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 150px;
+    background-color: aliceblue;
+  }
+
+  .playnow a {
+    font-size: 40px;
+    color: rgb(118, 118, 218);
+    transition: font-size 0.5s;
+    height: auto;
+  }
+
+  .playnow:hover a
+  {
+    font-size: 50px;
+
+  }
+
+  .playnow a:hover {
+    color: #7f6753;
+  }
+
+  .introduction {
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content: center;
+    background-color: #f0f8ff;
+
+    height: 400px;
+
+    padding-bottom: 200px;
+  }
+
+  .introduction h1 {
+    font-family: "Monomakh", serif;
+    font-size: 60px;
+    margin: 30px;
+    color: #7c6450;
+  }
+
+  .intro-text {
+    display: flex;
+    flex: 1 1 0px;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .introduction p {
+    font-size: 19px;
+    width: 400px;
+    padding: 15px;
+    padding-right: 80px;
+  }
+
+  .introduction img {
+    height: 400px;
   }
