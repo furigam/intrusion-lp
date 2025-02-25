@@ -49,6 +49,7 @@
 
   .hero {
     width: 100%;
+    overflow:hidden;
   }
 
   .hero div {
@@ -56,6 +57,7 @@
 
     height: 100vh;
     width: 100%;
+    overflow: hidden;
   }
 
   .hero img {
@@ -126,7 +128,6 @@
     font-size: 40px;
     color: rgb(118, 118, 218);
     transition: font-size 0.5s;
-    height: auto;
   }
 
   .playnow:hover a
