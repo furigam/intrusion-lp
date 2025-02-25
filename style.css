@@ -1,0 +1,105 @@
+  * {
+    padding: 0px;
+    margin: 0px;
+    text-decoration: none;
+    font-family: "Urbanist", serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+  }
+
+  header {
+    display: flex;
+    position: absolute;
+    opacity: 1;
+    height: 100px;
+    width: 100%;
+    z-index: 10;
+    font-size: 25px;
+    align-items: center;
+    justify-content: right;
+
+    opacity: 0;
+    animation: fadeIn 2s;
+    animation-fill-mode: both;
+    animation-delay: 2s;
+  }
+
+  header ul {
+    list-style: none;
+
+    margin-right: 100px;
+
+    display: flex;
+    flex-direction: row;
+  }
+
+  header li {
+    list-style: none;
+    font-weight: 600;
+
+    margin-right: 40px;
+    align-self: flex-start;
+
+  }
+
+  .hero  and .hero-container{
+    position: relative;
+    height: 1000px;
+
+    width: 100%;
+  }
+
+  .hero-container img {
+    position: absolute;
+    animation: slideLeft 0.7s ease-in;
+    animation-fill-mode: both;
+  }
+
+  #slider1 {
+    animation-delay: 0.7s;
+  }
+
+  #slider2 {
+    animation-delay: 0.9s;
+  }
+
+  #slider3 {
+    animation-delay: 1.1s;
+  }
+
+  #logo {
+    position: absolute;
+
+    opacity: 0;
+    animation: fadeIn 2s;
+    animation-fill-mode: both;
+    animation-delay: 2s;
+
+    margin-left: 35%;
+    margin-right: auto;
+
+    width: auto;
+
+    margin-top: 700px;
+  }
+
+  @keyframes slideLeft {
+    from {
+      transform: translate3d(2000px, 0px, 0px);
+    }
+
+    to {
+      transform: translate3d(-100p, 0px, 0px);
+    }
+  }
+
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+
+    to  {
+      opacity: 1;
+    }
+  }
