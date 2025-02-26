@@ -48,14 +48,14 @@
   }
 
   .hero {
+    height: 100vh;
     width: 100%;
     overflow:hidden;
   }
 
   .hero div {
 
-
-    height: 100vh;
+    
     width: 100%;
     overflow: hidden;
   }
@@ -120,7 +120,8 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 150px;
+    padding: 50px;
+    height: auto;
     background-color: aliceblue;
   }
 
@@ -137,7 +138,7 @@
   }
 
   .playnow a:hover {
-    color: #7f6753;
+    color: #7c6450;
   }
 
   .introduction {
@@ -147,9 +148,7 @@
     justify-content: center;
     background-color: #f0f8ff;
 
-    height: 400px;
-
-    padding-bottom: 200px;
+    padding: 50px;
   }
 
   .introduction h1 {
@@ -175,4 +174,19 @@
 
   .introduction img {
     height: 400px;
+  }
+
+  #feat {
+    text-align: center;
+  }
+
+  #feat ul {
+    list-style: none;
+    font-size: 20px;
+    padding-right: 200px;
+    padding-left: 20px;
+  }
+
+  #feat li {
+    padding: 10px;
   }
